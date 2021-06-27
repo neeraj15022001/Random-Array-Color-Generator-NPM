@@ -34,7 +34,7 @@ https://unpkg.com/random-color-array-generator@1.0.3/Button.min.js
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/ColorGeneratorCDN.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Button.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/Button.min.css">
 ```
 
 # Structure
@@ -106,8 +106,8 @@ console.log(colorGenerator.generateHSLA());
 
 ```HTML
 <!-- Import StyleSheet -->
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/ColorGeneratorCDN.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Button.min.css">
+<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/ColorGeneratorCDN.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/Button.min.css">
 <script>
     const colorGenerator  = new ColorGenerator(5)
     console.log(colorGenerator.generateHEX()) //["#762775", "#f7f7c5", "#9f4cfa", "#94726d", "#2db4af"]
