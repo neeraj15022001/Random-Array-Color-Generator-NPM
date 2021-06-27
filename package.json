@@ -1,0 +1,33 @@
+{
+  "name": "random-color-array-generator",
+  "version": "1.0.0",
+  "description": "Generate Random Colors Array in RGB, HEX, HSL, RGBA, HSLA and also provide inbuilt class for creating button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj15022001/Random-Array-Color-Generator-NPM.git"
+  },
+  "keywords": [
+    "HSL",
+    "RGB",
+    "HEX",
+    "RGBA",
+    "HSLA",
+    "Color",
+    "Array",
+    "Generator",
+    "Color",
+    "Generator",
+    "Color"
+  ],
+  "type": "module",
+  "author": "Neeraj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeraj15022001/Random-Array-Color-Generator-NPM/issues"
+  },
+  "homepage": "https://github.com/neeraj15022001/Random-Array-Color-Generator-NPM#readme"
+}
