@@ -4,6 +4,8 @@ This package enables you to generate random colors array of desired length in di
 
 [![](https://data.jsdelivr.com/v1/package/npm/random-color-array-generator/badge)](https://www.jsdelivr.com/package/npm/random-color-array-generator)
 
+# Demo
+[Random Color Array Generator](https://neeraj15022001.github.io/Random-Color-Array-Generator/)
 # Additional Components
 
 This package also provides CSS classes for creating button
