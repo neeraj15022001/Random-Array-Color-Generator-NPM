@@ -18,8 +18,11 @@ npm i random-color-array-generator
 •
 └── randomArrayColorGenerator
     ├── ColorGenerator.min.js
+    ├── ColorGenerator.js
     ├── Conversions.min.js
-    └── Button.css
+    ├── Conversions.js
+    ├── Button.css
+    └── README.md
 ```
 
 # Usage
