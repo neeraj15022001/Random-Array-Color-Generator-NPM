@@ -69,18 +69,18 @@ class ColorGenerator {
   }
 
   generateHSLA() {
-    const hslArray = this.generateHSL()
-    const hslaArray = []
-    hslArray.forEach(color => {
-      const colorArray = color.substr(4).split(")")[0].split(",")
-      const h = colorArray[0]
-      const s = colorArray[1]
-      const l = colorArray[2]
-      const a = Math.random().toFixed(2)
-      const hsla = `hsla(${h}, ${s}, ${l}, ${a})`
-      hslaArray.push(hsla)
-    })
-    return hslaArray
+    const hslArray = this.generateHSL();
+    const hslaArray = [];
+    hslArray.forEach((color) => {
+      const colorArray = color.substr(4).split(")")[0].split(",");
+      const h = colorArray[0];
+      const s = colorArray[1];
+      const l = colorArray[2];
+      const a = Math.random().toFixed(2);
+      const hsla = `hsla(${h}, ${s}, ${l}, ${a})`;
+      hslaArray.push(hsla);
+    });
+    return hslaArray;
   }
 }
 

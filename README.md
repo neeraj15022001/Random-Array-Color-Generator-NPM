@@ -19,25 +19,22 @@ npm i random-color-array-generator
 ## JSDELIVR
 
 ```js
-https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Conversions.min.js
-https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/ColorGenerator.min.js
-https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Button.min.css
+https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/ColorGeneratorCDN.min.js
+https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/Button.min.css
 ```
 
 ## UNPKG
 
 ```js
-https://unpkg.com/random-color-array-generator@1.0.2/ColorGenerator.min.js
-https://unpkg.com/random-color-array-generator@1.0.2/Conversions.min.js
-https://unpkg.com/random-color-array-generator@1.0.2/Button.min.js
+https://unpkg.com/random-color-array-generator@1.0.3/ColorGeneratorCDN.min.js
+https://unpkg.com/random-color-array-generator@1.0.3/Button.min.js
 ```
 
 # CDN Usage
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Conversions.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/ColorGenerator.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Button.min.css"></script>
+<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/ColorGeneratorCDN.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.3/Button.min.css"></script>
 ```
 
 # Structure
@@ -49,6 +46,8 @@ https://unpkg.com/random-color-array-generator@1.0.2/Button.min.js
     ├── ColorGenerator.js
     ├── Conversions.min.js
     ├── Conversions.js
+    ├── ColorGeneratorCDN.js
+    ├── ColorGeneratorCDN.min.js
     ├── Button.css
     ├── Button.min.css
     └── README.md
@@ -107,8 +106,11 @@ console.log(colorGenerator.generateHSLA());
 
 ```HTML
 <!-- Import StyleSheet -->
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Conversions.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/ColorGenerator.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/ColorGeneratorCDN.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/random-color-array-generator@1.0.2/Button.min.css"></script>
+<script>
+    const colorGenerator  = new ColorGenerator(5)
+    console.log(colorGenerator.generateHEX()) //["#762775", "#f7f7c5", "#9f4cfa", "#94726d", "#2db4af"]
+</script>
 <button class="custom-generate-button button-pink" id="generate-color">This is custom generate button</button>
 ```
