@@ -58,6 +58,11 @@ console.log(colorGenerator.generateHSLA())
 | generateRGBA              |Return array of random rgba values                   |['rgba(21,74,146,0.73)','rgba(107,250,202,0.30)','rgba(241,34,163,0.55)','rgba(114,95,192,0.52)','rgba(213,96,0,0.56)']|
 | generateHSLA              |Return array of random hsla values                   |['hsla(7, 41.7%, 70.4%, 0.89)','hsla(314, 97.1%, 41%, 0.73)','hsla(115, 75.2%, 42.7%, 0.79)','hsla(145, 47.4%, 41%, 0.36)','hsla(75, 65.4%, 40.8%, 0.46)']|
 
+# Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FLf1aG4MnmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link To Tutorial](https://youtu.be/FLf1aG4MnmY)
 # Available CSS Classes
 
 | Class Name           |   Functioning                        |
