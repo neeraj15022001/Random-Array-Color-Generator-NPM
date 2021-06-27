@@ -1,8 +1,8 @@
 {
   "name": "random-color-array-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate Random Colors Array in RGB, HEX, HSL, RGBA, HSLA and also provide inbuilt class for creating button",
-  "main": "index.js",
+  "main": "ColorGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

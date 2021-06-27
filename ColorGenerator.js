@@ -1,4 +1,4 @@
-import Conversions from "./Conversions.js";
+import Conversions from "./Conversions.min.js";
 class ColorGenerator {
   constructor(sizeOfArray) {
     this.length = sizeOfArray;
